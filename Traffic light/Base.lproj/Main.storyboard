@@ -72,6 +72,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonSwitchColorTrafficLight" destination="BYZ-38-t0r" eventType="touchUpInside" id="scZ-uK-sJ9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,6 +89,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lYU-th-9QR" secondAttribute="bottom" constant="295" id="s8M-jT-0xp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonTrafficLight" destination="awi-VH-FjW" id="Hb7-uO-Hw4"/>
+                        <outlet property="greenTrafficLight" destination="GVk-DV-3tK" id="P7z-hF-yHt"/>
+                        <outlet property="redTrafficLight" destination="i3M-na-Lyb" id="ls9-Yf-8Q3"/>
+                        <outlet property="trafficLightView" destination="lYU-th-9QR" id="jEb-gg-4kb"/>
+                        <outlet property="yellowTrafficLight" destination="3rT-jD-R18" id="65p-ur-oOu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
